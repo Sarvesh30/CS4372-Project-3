@@ -7,9 +7,9 @@ CS 4372 Assignment 3 -- Image Based Project
        - matplotlib for plotting history/performance curves
        - pandas and numpy to track historical data and visualize testing points
     - The dataset used was a sports balls image classification set from Kaggle.
-          - There were 15 different sports balls classes, but we decided to use 3 classes (american_football, baseball, and basketball)
-          - There are 1124 training images and 282 testing images in the dataset
-          - **Link:** _https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification?select=train_
+       - There were 15 different sports balls classes, but we decided to use 3 classes (american_football, baseball, and basketball)
+       - There are 1124 training images and 282 testing images in the dataset
+       - **Link:** _https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification?select=train_
     - To run the code, the user can run through the notebook named Project_3_Code. The data can be found on this repository publicly and is loaded in via github
       
 3) Model Building/Tuning/Evaluation (Configuration Set 1)
