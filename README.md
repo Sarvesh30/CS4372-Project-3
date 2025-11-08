@@ -8,9 +8,9 @@ CS 4372 Assignment 3 -- Image Based Project
        - pandas and numpy to track historical data and visualize testing points
     - The dataset used was a sports balls image classification set from Kaggle.
        - There were 15 different sports balls classes, but we decided to use 3 classes (american_football, baseball, and basketball)
-       - There are 1124 training images and 282 testing images in the dataset
+       - There are 1124 training images and 282 testing images in the dataset with the 3 classes chosen
        - **Link:** _https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification?select=train_
-    - To run the code, the user can run through the notebook named Project_3_Code. The data can be found on this repository publicly and is loaded in via github
+    - To run the code, the user can run through the notebook named Project_3_Code. The data is loaded publicly via the github repository
       
 3) Model Building/Tuning/Evaluation (Configuration Set 1)
      - Initially, a train_model function is defined with a pre-trained MobileNetV2 model loaded via Keras
