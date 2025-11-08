@@ -24,5 +24,6 @@ CS 4372 Assignment 3 -- Image Based Project
      - The train_model function is used again for the second set of configs, but the second set tunes the top 2 performing models from the first set with additional changes to enhance performance
      - The number of epochs are increased to 30 with early stopping to ensure that the model converges efficiently
      - Plots are created using matplotlib to visualize the models
+     - The result_final table shows the 7 total configurations used in the notebook with their training/test accuracies and run-times
   
 5) Finally, 25 testing points are visualized at random with their image, actual label, and predicted label to understand model performance further
