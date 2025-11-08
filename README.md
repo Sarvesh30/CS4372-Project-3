@@ -12,16 +12,16 @@ CS 4372 Assignment 3 -- Image Based Project
        - **Link:** _https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification?select=train_
     - To run the code, the user can run through the notebook named Project_3_Code. The data is loaded publicly via the github repository
       
-3) Model Building/Tuning/Evaluation (Configuration Set 1)
+3) Model Building/Tuning/Evaluation (Configuration Set 1: **5 models**)
      - Initially, a train_model function is defined with a pre-trained MobileNetV2 model loaded via Keras
-         - The train_model function defines possible tuning, builds a model with the base model + extra layers
+         - The train_model function defines possible tuning and builds a model with the base model + extra layers
          - Selects the optimizer based on user input, compiles the model, and implements early stopping to reduce overfitting and enhance computational efficiency
          - The training/testing accuracy and loss are tracked for each model
      - The first set of configurations are focused on tuning the model with changes in dense_units, dropout, learning rate, and layer freezing with a small number of epochs
      - Plots are created using matplotlib to visualize the model's training/testing accuracy and loss across epochs
 
-4) Model Building/Tuning/Evaluation (Configuration Set 2)
-     - The train_model function is used again for the second set of configs, but here the configs are changed based on the performances from the first set
+4) Model Building/Tuning/Evaluation (Configuration Set 2: **2 models**)
+     - The train_model function is used again for the second set of configs, but the second set tunes the top 2 performing models from the first set with additional changes to enhance performance
      - The number of epochs are increased to 30 with early stopping to ensure that the model converges efficiently
      - Plots are created using matplotlib to visualize the models
   
