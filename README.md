@@ -1,6 +1,6 @@
 CS 4372 Assignment 3 -- Image Based Project
 
-**1) Import Modules and Data**
+1) Import Modules and Data
    - In this project, we utilized the following modules:
          - TensorFlow for Deep Learning
          - os, zipefile, requests, BytesIO for data/file loading and handling
@@ -12,7 +12,7 @@ CS 4372 Assignment 3 -- Image Based Project
           - **Link:** _https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification?select=train_
     - To run the code, the user can run through the notebook named Project_3_Code. The data can be found on this repository publicly and is loaded in via github
       
-**2) Model Building/Tuning/Evaluation (Configuration Set 1)**
+2) Model Building/Tuning/Evaluation (Configuration Set 1)
      - Initially, a train_model function is defined with a pre-trained MobileNetV2 model loaded via Keras
          - The train_model function defines possible tuning, builds a model with the base model + extra layers
          - Selects the optimizer based on user input, compiles the model, and implements early stopping to reduce overfitting and enhance computational efficiency
@@ -20,7 +20,7 @@ CS 4372 Assignment 3 -- Image Based Project
      - The first set of configurations are focused on tuning the model with changes in dense_units, dropout, learning rate, and layer freezing with a small number of epochs
      - Plots are created using matplotlib to visualize the model's training/testing accuracy and loss across epochs
 
-**3) Model Building/Tuning/Evaluation (Configuration Set 2)**
+3) Model Building/Tuning/Evaluation (Configuration Set 2)
      - The train_model function is used again for the second set of configs, but here the configs are changed based on the performances from the first set
      - The number of epochs are increased to 30 with early stopping to ensure that the model converges efficiently
      - Plots are created using matplotlib to visualize the models
